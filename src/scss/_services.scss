@@ -1,0 +1,21 @@
+.services {
+  width: 100%;
+  min-height: 3250px;
+}
+.services__header {
+  width: 100%;
+  min-height: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: $main-font-color;
+  }
+}
+.services__our-services {
+  width: 100%;
+  min-height: 534px;
+  background: rgba(1,1,1,0.2);
+}

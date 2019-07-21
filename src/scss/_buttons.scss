@@ -1,0 +1,17 @@
+button {
+  width: 217px;
+  height: 51px;
+  border-radius: 25px;
+  font-family: $main-font;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background: $main-color;
+  border: 0;
+  transition: 1s;
+}
+button:hover {
+  background: #ffffff;
+  color: $main-color;
+  transition: 1s;
+ }
