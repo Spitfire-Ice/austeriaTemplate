@@ -1,6 +1,15 @@
 .services {
   width: 100%;
   min-height: 3250px;
+  position: relative;
+  overflow: hidden;
+
+}
+.services-backgroundImg {
+  position: absolute;
+  bottom: 1100px;
+  left: 0;
+  z-index: 0.1;
 }
 .services__header {
   width: 100%;
@@ -16,6 +25,39 @@
 }
 .services__our-services {
   width: 100%;
-  min-height: 534px;
-  background: rgba(1,1,1,0.2);
+  min-height: 410px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.our-services--item {
+  width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #242424;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #878787;
+    line-height: 24px;
+  }
+}
+.services__checkServices-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 125px;
 }
