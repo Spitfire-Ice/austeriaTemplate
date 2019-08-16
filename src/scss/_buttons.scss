@@ -9,7 +9,6 @@ button {
   background: $main-color;
   border: 0;
   transition: 1s;
-  cursor: pointer;
 }
 .header__content button:hover {
   background: #ffffff;
@@ -18,5 +17,7 @@ button {
  }
 .services__checkServices-button button:hover {
   transform: scale(1.1);
-
+}
+.content__article button:hover {
+  transform: scale(1.1);
 }

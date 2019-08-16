@@ -7,9 +7,9 @@
 }
 .services-backgroundImg {
   position: absolute;
-  bottom: 1100px;
+  bottom: 0;
   left: 0;
-  z-index: 0.1;
+  z-index: -1;
 }
 .services__header {
   width: 100%;
@@ -60,4 +60,21 @@
   justify-content: flex-start;
   align-items: center;
   height: 125px;
+  z-index: 2;
+  position: relative;
+}
+.services__content {
+  width: 100%;
+  position: relative;
+  min-height: 1400px;
+  z-index: 2;
+}
+.content-row {
+
+  .content__article{
+
+  }
+  .content__img {
+
+  }
 }
