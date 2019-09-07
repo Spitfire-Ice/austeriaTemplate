@@ -23,9 +23,13 @@
 }
 .services__items--item {
   margin: 0 30px;
+  margin-top: 80px;
   width: 300px;
   height: 400px;
-  background: rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   .item--icon {
 
     width: 80px;
@@ -34,6 +38,24 @@
     justify-content: center;
     align-items: center;
   }
+  h3 {
+    margin-top: 55px;
+    font-family: $main-font;
+    font-size: 24px;
+    color: #242424;
+  }
+  p {
+    font-family: $main-font;
+    font-size: 14px;
+    color: #878787;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 34px;
+  }
 
-
+}
+.services__items--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

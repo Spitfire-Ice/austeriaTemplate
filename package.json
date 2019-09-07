@@ -40,5 +40,7 @@
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "rimraf": "^3.0.0"
+  }
 }
