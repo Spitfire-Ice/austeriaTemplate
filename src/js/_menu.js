@@ -1,4 +1,4 @@
-menuToggleAction = ()=> {
+const menuToggleAction = ()=> {
     if (window.innerWidth < 850) {
         const addButtonChange = document.getElementById('mobileButton');
         addButtonChange.classList.toggle('buttonChange');
