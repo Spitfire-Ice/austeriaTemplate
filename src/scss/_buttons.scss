@@ -21,3 +21,9 @@ button {
 .content__article button:hover {
   transform: scale(1.1);
 }
+.team__items--item {
+  button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}

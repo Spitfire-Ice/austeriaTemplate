@@ -1,0 +1,113 @@
+.contacts {
+  width: 100%;
+  min-height: 725px;
+  background: url("../img/contact-background.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  .contacts--mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 3;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contacts__item {
+  z-index: 4;
+  max-width: 635px;
+  width: 100%;
+  min-height: 460px;
+  height: 100%;
+  margin: 135px 15px;
+  border: 1px solid red;
+  h3 {
+    font-family: $main-font;
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .item--address {
+    font-family: $main-font;
+    font-size: 14px;
+    color: #878787;
+    margin-top: 75px;
+  }
+}
+.item--contacts {
+  margin-top: 35px;
+  font-family: $main-font;
+  font-size: 30px;
+  line-height: 48px;
+  color: #878787;
+  i {
+    color: #2ebaee;
+  }
+}
+.item--social {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  img {
+    margin: 25px 25px 0 0;
+  }
+}
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  input[type='text'] {
+    width: 100%;
+    height: 65px;
+    background-color: transparent;
+    font-family: $main-font;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  input[name='email'] {
+    margin-top: 25px;
+  }
+  input::placeholder {
+    font-family: $main-font;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 18px;
+  }
+  input[type='submit'] {
+    width: 217px;
+    height: 51px;
+    border-radius: 25px;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: $main-color;
+    border: 0;
+    transition: 1s;
+    margin-top: 35px;
+  }
+  textarea {
+    margin-top: 25px;
+    height: 205px;
+    width: 100%;
+    background: transparent;
+    font-family: $main-font;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  textarea::placeholder {
+    font-family: $main-font;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 18px;
+  }
+}
