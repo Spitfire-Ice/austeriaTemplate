@@ -1,0 +1,56 @@
+.team {
+  max-width: 1362px;
+  margin: 0 auto;
+  min-height: 855px;
+  h2 {
+    margin-top: 100px;
+    font-family: $main-font;
+    font-size: 72px;
+    font-weight: bold;
+    color: #242424;
+    padding: 0 30px;
+    i {
+      color: #2ebaee;
+    }
+  }
+}
+.team__items {
+  margin-top: 115px;
+  button {
+    margin-top: 25px;
+  }
+  button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.team__items--item {
+  width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 15px;
+}
+.item__face {
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+}
+.item__bio {
+  font-family: $main-font;
+  font-size: 36px;
+  margin-top: 30px;
+  color: #363636;
+}
+.item__post {
+  font-family: $main-font;
+  font-size: 14px;
+  color: #878787;
+  margin-top: 18px;
+}
